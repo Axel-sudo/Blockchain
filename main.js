@@ -18,3 +18,5 @@ let blockChain = new Blockchain();
  blockChain.minePendingTransactions(myWalletAddress);
 
  console.log('\nBalance of axel is', blockChain.getBalanceOfAddress(myWalletAddress));
+
+ console.log ('Is chain valid?', blockChain.isChainValid());
